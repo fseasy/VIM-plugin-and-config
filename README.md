@@ -15,4 +15,4 @@ ctrl + p 打开 ctrlp功能
 2. 将vimrc改为.vimrc ， 并覆盖用户目录下的相应文件
 
 效果：
-![效果](effict.png)
+![效果](effect.png)
