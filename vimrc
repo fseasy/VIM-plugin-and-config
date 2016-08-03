@@ -18,6 +18,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 set termencoding=utf-8
+set noeb vb t_vb= " avoid bell in some terminal(such as Win10 Bash) where sound can't close
 " avoid ctrl + space 's bad effictive
 imap <Nul> <Space>
 
