@@ -12,9 +12,9 @@ ctrl + p 打开 ctrlp功能
 
 1. 将vim_plugin.tar.gz解压到用户目录（会与用户目录下的.vim文件夹合并）
 
-```shell
-tar xzf vim_plugin.tar.gz -C ~/
-```
+  ```shell
+  tar xzf vim_plugin.tar.gz -C ~/
+  ```
 
 2. 将vimrc改为.vimrc ， 并覆盖用户目录下的相应文件
 
