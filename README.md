@@ -14,19 +14,13 @@ ctrl + p 打开 ctrlp功能
 
 #### 用法
 
-1. 将vim_plugin.tar.gz解压到用户目录（会与用户目录下的.vim文件夹合并）
+直接运行`deploy.sh`
 
   ```shell
-  tar xzf vim_plugin.tar.gz -C ~/
+  sh deploy.sh
   ```
 
-2. 将vimrc改为.vimrc ， 并覆盖用户目录下的相应文件
-
-  ```shell
-  mv vimrc ~/.vimrc
-
-  ```
-3. vundle的使用，见其官方说明。
+shvundle的使用，见其官方说明。
 
 #### 效果
 
