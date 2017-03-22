@@ -25,3 +25,20 @@ vundle的使用，见其官方说明。
 #### 效果
 
 ![效果](effect.png)
+
+#### 一些设置
+
+1. 解决编辑Python文件时输入`#`号导致自动定位到行首的问题
+
+    ```vimrc
+    " http://stackoverflow.com/questions/2063175/comments-go-to-start-of-line-in-the-insert-mode-in-vim
+    au! FileType python setl nosmartindent
+    " or 
+    " https://github.com/wklken/k-vim/issues/82
+    autocmd BufNewFile,BufRead *.py inoremap # X<c-h>#
+    ```
+2. 解决使用`ctrl + space`切换输入法时vim进入到非正常编辑状态
+
+    '''vimrc
+    imap <Nul> <Space>
+    '''

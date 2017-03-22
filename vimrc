@@ -70,6 +70,10 @@ set termencoding=utf-8
 set noeb vb t_vb=
 " avoid ctrl + space 's bad effictive
 imap <Nul> <Space>
+" avoid the case when typing `#` for comment in Python, the cursor run to the
+" - start of the line.
+" - see http://stackoverflow.com/questions/2063175/comments-go-to-start-of-line-in-the-insert-mode-in-vim
+au! FileType python setl nosmartindent
 
 colorscheme desert
 set background=dark
