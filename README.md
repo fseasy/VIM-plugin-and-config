@@ -20,7 +20,7 @@ ctrl + p 打开 ctrlp功能
   sh deploy.sh
   ```
 
-shvundle的使用，见其官方说明。
+vundle的使用，见其官方说明。
 
 #### 效果
 
